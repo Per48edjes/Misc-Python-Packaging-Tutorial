@@ -1,9 +1,5 @@
 import pytest
-import sys
-import os
-
-# Ensure src is on path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+# tests assume project installed in editable mode via 'pip install -e .[dev]'
 
 import examples_pkg
 import examples_pkg.subpkg1 as sp1
