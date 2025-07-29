@@ -1,3 +1,4 @@
+.claude/
 .venv/
 src/pkg.egg-info/
 src/pkg_resolution_exploration.egg-info/
